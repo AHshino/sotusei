@@ -1,3 +1,3 @@
-h1{background-color:#fff;color:0}
+*{margin:0;padding:0}main .mainwrapp .mainwrapp__bg{background-color:#efc727;width:100vw;height:100vw;-webkit-clip-path:circle(450px at 50% 50%);clip-path:circle(450px at 50% 50%)}main .mainwrapp .mainwrapp__bg .mainwrapp__bg__centerbg{position:fixed;z-index:999;margin:auto;width:50vw;height:50vh;background-color:#fff}main .mainwrapp .mainwrapp__bg .mainwrapp__bg__centerbg h1{text-align:center}main .mainwrapp .mainwrapp__bg .mainwrapp__bg__centerbg .hako{margin:0 auto;width:250px;height:250px;background-color:#2732a9}
 
 /*# sourceMappingURL=style.min.css.map */

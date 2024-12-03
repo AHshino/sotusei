@@ -1,4 +1,37 @@
-h1 {
-    background-color: #fff;
-    color: blue($color: #000000);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+main {
+    .mainwrapp {
+        .mainwrapp__bg {
+            background-color: #efc727;
+            width: 100vw;
+            height: 100vw;
+            clip-path: circle(450px at 50% 50%);
+            .mainwrapp__bg__centerbg {
+                position: fixed;
+                z-index: 999;
+                margin: auto;
+                width: 50vw;
+                height: 50vh;
+                background-color: #fff;
+                
+                h1 {
+                    text-align: center;
+                }
+                .hako {
+                    margin: 0 auto;
+                    width: 250px;
+                    height: 250px;
+                    background-color: #2732a9;
+                }
+            }
+        }
+    }
 }
